@@ -30,3 +30,17 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: codig-bk-pro
+    name: codig-bk-pro.codig.ec
+    url: 'https://codig-bk-pro.codig.ec/param/api/v1'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: home-codig-ec
+    name: home.codig.ec
+    url: 'https://home.codig.ec'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
